@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+<!--
+The SSF plugin adheres to Semantic Versioning, right?
+-->
+
+<!--
+Insert issue and pull request numbers on key entries below?
+-->
+
 ## [Unreleased]
 
 ### Changed
@@ -23,13 +31,32 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Updated Readme to reflect vsync limitations.
 
-- Updated ssf.txt.
+- Updated ssf.txt. (Pull #11 .)
+<!--
+Test if pull #s come up in entry.
+https://github.com/Jakobud/skipstartupframes/commit/79b45bc67aa1a5cafd15f0bdd4136ccb7c0ce70e
+https://github.com/Jakobud/skipstartupframes/pull/11
+-->
 
 ### Fixed 
 
 - Fixed false options always reverting to default values on startup.
 
-- Fixed LUA pattern matching for underscores.
+<!--
+Clarify entry?  commit f9b7b623d5883190c5487305bd0ccb10a0d4dbe2
+https://github.com/Jakobud/skipstartupframes/pull/15/commits/752c488babf7cd45a7cc0ee874f9c40e42daa016
+-->
+
+- Fixed LUA pattern matching for underscores. (Issue #14 .)
+
+<!--
+Test if issue #s come up in entry.
+Clarify entry?
+https://github.com/Jakobud/skipstartupframes/issues/14
+
+commit e1a76d6d4d38d32d16a80e1336e17661ed522bc1
+https://github.com/Jakobud/skipstartupframes/pull/15/commits/e1a76d6d4d38d32d16a80e1336e17661ed522bc1
+-->
 
 ## [2.0.0] - 2024-12-15
 
@@ -85,6 +112,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Improved screen blackout to apply to all screens for multi-screen games.
 
+<!--
+Clarify entry?
+-->
+
 ### Fixed
 
 - Fixed issue with wrong screen device tag causing a crash.
@@ -108,7 +139,7 @@ Types of changes:
 
 Code examples:
 
-Link - [SemVer](https://semver.org)
+Link - [BYOAC Forums](https://forum.arcadecontrols.com/)
 
 Reference issues and pull requests - Bring up a list of suggested issues and pull requests within the repository by typing #.
 Type the issue or pull request number or title to filter the list, and then press either tab or enter to complete the highlighted result.
@@ -126,3 +157,8 @@ End comment -->
 [1.2.0]: https://github.com/Jakobud/skipstartupframes/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/Jakobud/skipstartupframes/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/Jakobud/skipstartupframes/releases/tag/v1.0.0
+
+<!--
+Change unreleased link to point to Develop branch instead of Main?  https://github.com/Jakobud/skipstartupframes/compare/v2.2.0...develop
+Change links for 1.1.0 thru 2.2.0 to release tag like 1.0.0?  
+-->
